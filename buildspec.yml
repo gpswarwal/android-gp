@@ -7,9 +7,9 @@ phases:
     commands:
       - echo Installing source NPM dependencies.
       - apt update
-      - apt-get install snapd
-      - snap install android-studio
-      - apt install openjdk-8-jdk
+      - apt-get install snapd -y
+      - snap install android-studio -y
+      - apt install openjdk-8-jdk -y
   build:
     commands:
       - ./gradlew android_project
