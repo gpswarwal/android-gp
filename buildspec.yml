@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+     
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies.
+      - apt update
+      - apt-get install snapd
+      - snap install android-studio
+      - apt install openjdk-8-jdk
+  build:
+    commands:
+      - ./gradlew android_project
+artifacts:
+  files:
+    - '**/*'
