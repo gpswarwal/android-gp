@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
      runtime-version:
+      android: 29
      
     commands:
       - echo Install started on `date`
