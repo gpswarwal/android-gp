@@ -4,7 +4,7 @@ phases:
   install:
    runtime-version:
       android: 29
-      nodejs:  12
+   
     commands:
       - echo Install started on `date`
   pre_build:
