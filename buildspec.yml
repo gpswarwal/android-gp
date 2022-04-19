@@ -16,7 +16,7 @@ phases:
       - chmod +x gradlew
       - ./gradlew clean
     
-      - ./gradlew assembleDebug 
+      - ./gradlew android_projec:asembleRelease -x bundleRelaeseJsAndAssets
      
       
   
