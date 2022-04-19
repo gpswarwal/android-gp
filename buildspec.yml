@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
      runtime-version:
-      android: 20
+      android: 2021.1
     commands:
       - echo Install started on `date`
   pre_build:
