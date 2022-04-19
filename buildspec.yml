@@ -2,7 +2,6 @@ version: 0.2
 
 phases:
   install:
-     runtime-version:
     commands:
       - echo Install started on `date`
   pre_build:
