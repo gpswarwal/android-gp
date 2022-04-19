@@ -20,6 +20,8 @@ phases:
    
       - chmod +x gradlew
       - ./gradlew clean
+      - ./gradlew assembleDebug
+      - ./gradlew installDebug
       
   
   post_build:
