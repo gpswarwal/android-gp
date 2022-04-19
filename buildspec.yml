@@ -2,8 +2,6 @@ version: 0.2
 
 phases:
   install:
-   runtime-version:
-      android studio: 30
     commands:
       - echo Install started on `date`
   pre_build:
