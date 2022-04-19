@@ -22,7 +22,7 @@ phases:
       - echo Build started on `date`
       - cd android
       - chmod +x gradlew
-      - ./gradlew clean
+      - ./gradlew android_project
       - ./gradlew assembleRelease -x bundleReleaseJsAssets
   
   post_build:
